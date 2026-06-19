@@ -1,0 +1,7 @@
+
+replicas: 4
+
+configmap:
+  data:
+    BG_COLOR: '#3311DD'
+    CUSTOM_HEADER: 'This is on the PROD environment!'
