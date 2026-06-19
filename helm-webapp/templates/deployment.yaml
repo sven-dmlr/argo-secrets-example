@@ -24,6 +24,12 @@ spec:
         image: "{{ .Values.image.name }}:{{ .Values.image.tag }}"
         ports:
         - containerPort: 80
+        env:
+        - name: SCRT
+          valueFrom:
+            secretKeyRef:
+              name: mysecret
+              key: foo
         envFrom:
         - configMapRef:
             name: {{ .Values.configmap.name }}
