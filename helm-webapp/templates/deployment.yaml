@@ -25,7 +25,7 @@ spec:
         ports:
         - containerPort: 80
         env:
-        - name: SCRT
+        - name: CUSTOM_HEADER  # displyed by the demo app
           valueFrom:
             secretKeyRef:
               name: mysecret
