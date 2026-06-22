@@ -11,3 +11,7 @@ configmap:
 image:
   name: devopsjourney1/mywebapp
   tag: latest
+
+sealed-secrets:
+  mysecret:
+    foo: to-be-defined
