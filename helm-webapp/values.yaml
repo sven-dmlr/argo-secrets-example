@@ -12,6 +12,6 @@ image:
   name: devopsjourney1/mywebapp
   tag: latest
 
-sealed-secrets:
+sealedsecrets:
   mysecret:
     foo: to-be-defined
