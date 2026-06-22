@@ -3,7 +3,7 @@ replicas: 4
 
 configmap:
   data:
-    BG_COLOR: '#3311DD'
+    BG_COLOR: '#331111'
     CUSTOM_HEADER: 'This is on the PROD environment!'
 
 sealedsecrets:
